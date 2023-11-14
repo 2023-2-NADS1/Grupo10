@@ -10,16 +10,18 @@
 
 ## Integrantes: Mauricio Fontanari e Lucca Brandão
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. 
-## Descrição
+## Professores Orientadores: Professores Orientadores: Dr. Victor Bruno Alexander Rosetti de Quiroz, Adriano Felix Valente, Jose Carlos Buesso Junior
+
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="Peixonauta" border="0">
+<img src="  PNG  " alt="Peixonauta" border="0">
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
 
-Desenvolver um sistema de monitoramento do pH da água em um ecossistema aquático para avaliar a qualidade da água e detectar mudanças ao longo do tempo.
+
+Desenvolver um sistema de monitoramento do pH da água em um ecossistema aquático para avaliar a qualidade e detectar mudanças ao longo do tempo. Ao analisar os dados coletados podemos identificar as mudanças no pH com isso podemos monitorar a saúde do ecossistema aquático.
+
 
 <br><br>
 Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
