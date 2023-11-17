@@ -23,6 +23,85 @@
 
 Desenvolver um sistema de monitoramento do pH da água em um ecossistema aquático para avaliar a qualidade e detectar mudanças ao longo do tempo. Ao analisar os dados coletados podemos identificar as mudanças no pH com isso podemos monitorar a saúde do ecossistema aquático.
 
+## 🛠 Codigo 
+[Upload
+
+
+#include <Dabble.h>
+#include <Servo.h>
+#include <AFMotor.h>
+
+
+AF_DCMotor motor1(1);
+AF_DCMotor motor4(4);
+
+void setup() {
+	
+	Dabble.begin(9600);
+	
+	
+}
+
+void loop() {
+	
+	Dabble.processInput();
+	
+	
+	if(GamePad.isPressed(0)) {
+		motor1.setSpeed(2.55*100);
+		motor1.run(BACKWARD);
+		motor4.setSpeed(2.55*100);
+		motor4.run(FORWARD);
+	}
+	else {
+		if(GamePad.isPressed(1)) {
+			motor1.setSpeed(2.55*100);
+			motor1.run(FORWARD);
+			motor4.setSpeed(2.55*100);
+			motor4.run(BACKWARD);
+		}
+		else {
+			if(GamePad.isPressed(2)) {
+				motor1.setSpeed(2.55*0);
+				motor1.run(BACKWARD);
+				motor4.setSpeed(2.55*100);
+				motor4.run(FORWARD);
+			}
+			else {
+				if(GamePad.isPressed(3)) {
+					motor1.setSpeed(2.55*100);
+					motor1.run(BACKWARD);
+					motor4.setSpeed(2.55*0);
+					motor4.run(FORWARD);
+				}
+				else {
+					if(GamePad.isPressed(9)) {
+						motor1.setSpeed(2.55*100);
+						motor1.run(FORWARD);
+						motor4.setSpeed(2.55*100);
+						motor4.run(FORWARD);
+					}
+					else {
+						if(GamePad.isPressed(7)) {
+							motor1.setSpeed(2.55*100);
+							motor1.run(BACKWARD);
+							motor4.setSpeed(2.55*100);
+							motor4.run(BACKWARD);
+						}
+						else {
+							motor1.setSpeed(2.55*0);
+							motor1.run(BACKWARD);
+							motor4.setSpeed(2.55*0);
+							motor4.run(FORWARD);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+ing ll_copy_20231116212439.ino…]()
+
 
 ## 🛠 Estrutura de pastas
 
