@@ -14,7 +14,8 @@
 
 
 <p align="center">
-<img src="  PNG  " alt="Peixonauta" border="0">
+<img src="  [barco](https://github.com/2023-2-NADS1/Grupo10/assets/149541024/bfb2089f-1f3a-459a-8ac9-91355a5a34bd)  " alt="Peixonauta" border="0">!
+
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
